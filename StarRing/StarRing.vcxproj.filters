@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{9c9acea3-e999-4bd3-8c81-e27cf4e5d8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing">
+      <UniqueIdentifier>{fcb7a4ab-e72a-4b7d-a3db-b93fe2c625dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Events">
+      <UniqueIdentifier>{f6de32a4-ad2e-4d09-af63-eaa4449afaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform">
+      <UniqueIdentifier>{c467e46c-4356-43fa-9502-8a55917db82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ImGui">
+      <UniqueIdentifier>{b160c64a-84b9-40bc-8fff-60d0330678fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\ImGui">
+      <UniqueIdentifier>{e7a90a85-4f78-4b80-af73-c89be19f6ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform\OpenGL">
+      <UniqueIdentifier>{676a0874-c3a4-4a00-bb0b-713865f43ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform\Windows">
+      <UniqueIdentifier>{cfd6e287-40ed-4791-a946-611c3f3e63be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer">
+      <UniqueIdentifier>{f44d7473-aa64-43cf-a0c8-1c6e9fe985ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Core">
+      <UniqueIdentifier>{0be71002-b163-446f-8c29-95f1a719f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Input">
+      <UniqueIdentifier>{6aa20aca-b8c0-4928-bcbf-f09ca71ba406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Log">
+      <UniqueIdentifier>{6cf8339c-f17c-4379-bc31-7ed609df094c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Buffer">
+      <UniqueIdentifier>{a9e4261c-a62f-4d19-872d-b275e11a29fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Camera">
+      <UniqueIdentifier>{600c65e7-ffcb-4635-95b3-8c1a2b53fb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Assets">
+      <UniqueIdentifier>{e9a083a5-3740-4b63-b404-07b6a1f827ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Scene">
+      <UniqueIdentifier>{5332af9b-bc0f-4a19-a5ad-719779025374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Utils">
+      <UniqueIdentifier>{7007315a-a358-4103-8855-5c8cd47a6caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Core\Resource">
+      <UniqueIdentifier>{419cabbd-fd51-439d-904a-d512f4f4008d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Light">
+      <UniqueIdentifier>{6a00026a-31da-4a78-8a69-14015b6b0850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Skeleton">
+      <UniqueIdentifier>{5849ebca-fdd3-4d82-a4f6-2d89ecc860a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Skeleton\Bone">
+      <UniqueIdentifier>{a3b1c606-5312-4283-946f-482a7b1e3055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ImGui\Gizmos">
+      <UniqueIdentifier>{7efcba3d-f890-489a-8094-31abc48e8371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\SkyBox">
+      <UniqueIdentifier>{7e50ca28-1fed-41a6-83c2-dd3043f92c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Material">
+      <UniqueIdentifier>{494060c0-6550-4346-ab1d-b64cf83b6231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Material\RenderState">
+      <UniqueIdentifier>{3d2ea232-a653-4f66-b1f5-adccc4f0c670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Material\Pass">
+      <UniqueIdentifier>{33aea1ca-f752-4999-8613-1d9d1c33c953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Material\Sampler">
+      <UniqueIdentifier>{7b0b0b1a-88ff-4af2-9ab7-8523ac44a4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Renderer\Material\Uniform">
+      <UniqueIdentifier>{4f794a19-5af7-4928-8d67-c0131d35c5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Core\Resource\Material">
+      <UniqueIdentifier>{dbc5eaf2-3b94-4814-9129-acc153aea71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StarRing\Core\Resource\Mesh">
+      <UniqueIdentifier>{80784b95-4e3f-40f8-b633-bdd6810171c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StarRing.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationEvent.h">
+      <Filter>src\StarRing\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>src\StarRing\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>src\StarRing\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>src\StarRing\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_glfw.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiLayer.h">
+      <Filter>src\StarRing\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWindow.h">
+      <Filter>src\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInput.h">
+      <Filter>src\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsContext.h">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLContext.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLBuffer.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLVertexArray.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererAPI.h">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererCommand.h">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRendererAPI.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLShader.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLTexture.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerStack.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseButtonCodes.h">
+      <Filter>src\StarRing\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodes.h">
+      <Filter>src\StarRing\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>src\StarRing\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>src\StarRing\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>src\StarRing\Renderer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthographicCamera.h">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthographicCameraController.h">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>src\StarRing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLFrameBuffer.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>src\StarRing\Renderer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\stbimg\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeScript.h">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformUtils.h">
+      <Filter>src\StarRing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCamera.h">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>src\StarRing\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>src\StarRing\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>src\StarRing\Renderer\Material\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>src\StarRing\Renderer\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCamera.h">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>src\StarRing\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>src\StarRing\Skeleton\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGuizmo\ImCurveEdit.h">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGuizmo\ImGradient.h">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGuizmo\ImGuizmo.h">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGuizmo\ImSequencer.h">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>src\StarRing\Renderer\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Uniform.h">
+      <Filter>src\StarRing\Renderer\Material\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>src\StarRing\Renderer\Material\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>src\StarRing\Renderer\Material\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>src\StarRing\Core\Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>src\StarRing\Core\Resource\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationEvent.cpp">
+      <Filter>src\StarRing\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyEvent.cpp">
+      <Filter>src\StarRing\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>src\StarRing\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiLayer.cpp">
+      <Filter>src\StarRing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsWindow.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInput.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLContext.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLBuffer.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLVertexArray.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererAPI.cpp">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererCommand.cpp">
+      <Filter>src\StarRing\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRendererAPI.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>src\StarRing\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLShader.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTexture.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>src\StarRing\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>src\StarRing\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerStack.cpp">
+      <Filter>src\StarRing\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>src\StarRing\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>src\StarRing\Renderer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthographicCamera.cpp">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthographicCameraController.cpp">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>src\StarRing\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLFrameBuffer.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>src\StarRing\Renderer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeScript.cpp">
+      <Filter>src\StarRing\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsPlatformUtils.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCamera.cpp">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>src\StarRing\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>src\StarRing\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>src\StarRing\Renderer\Material\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>src\StarRing\Renderer\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCamera.cpp">
+      <Filter>src\StarRing\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>src\StarRing\Skeleton\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>src\StarRing\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGuizmo\ImGradient.cpp">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGuizmo\ImGuizmo.cpp">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGuizmo\ImSequencer.cpp">
+      <Filter>src\ImGui\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>src\StarRing\Renderer\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Uniform.cpp">
+      <Filter>src\StarRing\Renderer\Material\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>src\StarRing\Renderer\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>src\StarRing\Renderer\Material\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>src\StarRing\Renderer\Material\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>src\StarRing\Core\Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>src\StarRing\Core\Resource\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
